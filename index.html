@@ -20,6 +20,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "button-primary-color": "#FF4240",
             },
           },
         },
@@ -80,7 +81,7 @@
               </ul>
             </div>
 
-            <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold"
+            <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold gap-0"
               >Hockey <span class="text-red-600">’</span>s</a
             >
           </div>
@@ -111,9 +112,13 @@
       <section class="my-14">
         <div class="carousel lg:w-full h-auto lg:h-[750px] relative">
           <!-- Slider-1 -->
-          <div id="slide1" class="carousel-item relative w-full flex flex-col lg:flex-row space-y-10">
-
-            <div class="lg:w-full h-auto lg:h-[750px]"><img src="./Images/1.png" class="w-full" /></div>
+          <div
+            id="slide1"
+            class="carousel-item relative w-full flex flex-col lg:flex-row space-y-10"
+          >
+            <div class="lg:w-full h-auto lg:h-[750px]">
+              <img src="./Images/1.png" class="w-full" />
+            </div>
 
             <div
               class="bg-black lg:h-[166px] lg:w-[666px] lg:absolute rounded-2xl lg:right-12 lg:bottom-7 p-5"
@@ -161,10 +166,156 @@
         </div>
       </section>
 
-
+      <!-- Professional Hockeys Club -->
 
       <section class="my-14">
+        <div class="space-y-4 text-center">
+          <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+          <p class="font-medium text-base p-4 mx-auto">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
 
+        <div
+          class="flex justify-around flex-col lg:flex-row my-10 space-y-4 items-center justify-center"
+        >
+          <!-- First -->
+          <div class="text-center space-y-2 mx-auto">
+            <div
+              class="radial-progress text-red-800"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h2 class="text-xl font-semibold">Prayer Facility</h2>
+            <p class="w-[350px] text-[#0d0d1299] text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- second -->
+          <div class="text-center space-y-2 mx-auto">
+            <div
+              class="radial-progress text-pretty"
+              style="--value: 20"
+              role="progressbar"
+            >
+              20%
+            </div>
+            <h2 class="text-xl font-semibold">Experienced Coach</h2>
+            <p class="w-[350px] text-[#0d0d1299] text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- third -->
+          <div class="text-center space-y-2 mx-auto">
+            <div
+              class="radial-progress text-green-700"
+              style="--value: 100"
+              role="progressbar"
+            >
+              100%
+            </div>
+            <h2 class="text-xl font-semibold">Senior Player</h2>
+            <p class="w-[350px] text-[#0d0d1299] text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+
+          <!-- fourth -->
+          <div class="text-center space-y-2 mx-auto">
+            <div
+              class="radial-progress text-primary"
+              style="--value: 70"
+              role="progressbar"
+            >
+              70%
+            </div>
+            <h2 class="text-xl font-semibold">Training Ground</h2>
+            <p class="w-[350px] text-[#0d0d1299] text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Program Section -->
+      <section>
+        <div class="space-y-4 text-center">
+          <h1 class="text-4xl font-extrabold">Program Sections</h1>
+          <p class="font-medium text-base p-4 mx-auto">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1">
+          <div class="my-14 grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- First-card -->
+            <div class="card bg-base-100 shadow-xl image-full">
+              <figure><img class="w-full h-full" src="./Images/2.png" alt="Shoes" /></figure>
+              <div class="card-body pt-32">
+                <h2 class="card-title text-3xl font-extrabold">Junior Program</h2>
+                <p class="text-base font-medium">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="card-actions">
+                  <button
+                    class="btn bg-[#FF4240] text-white rounded-lg border-x-4 bg-red-600 border-y-4 border-red-600"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="card bg-base-100 shadow-xl image-full">
+              <figure><img src="./Images/3.png" alt="Shoes" /></figure>
+              <div class="card-body pt-32">
+                <h2 class="card-title text-3xl font-extrabold">Teenager Program</h2>
+                <p class="text-base font-medium">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="card-actions">
+                  <button
+                    class="btn bg-[#FF4240] text-white rounded-lg border-x-4 bg-red-600 border-y-4 border-red-600"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Card -->
+
+          <div class="card bg-base-100 shadow-xl image-full col-span-2">
+            <figure><img class="w-full h-full" src="./Images/4.png" alt="Shoes" /></figure>
+            <div class="card-body pt-60">
+              <h2 class="card-title text-3xl font-extrabold">Junior Program</h2>
+              <p class="w-[520px] text-base font-medium">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn bg-[#FF4240] text-white rounded-lg border-x-4 bg-red-600 border-y-4 border-red-600"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
